@@ -1,0 +1,30 @@
+.image-grow{
+    background-image: url(https://wallpapercave.com/wp/wp3460281.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    /* transform: scale(1.15);
+    transition: opacity 2s ease; */
+    
+}
+
+.image-grow{
+    animation: grow 10s linear forwards;
+    opacity: 1;
+}
+
+@keyframes grow{
+    0%, 20%{
+        transform: scale(1.5);
+    }
+
+    75%, 100%{
+        transform: scale(2);
+    }
+}

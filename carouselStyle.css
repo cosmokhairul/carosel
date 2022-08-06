@@ -1,0 +1,39 @@
+.carousel-item{
+    height: 40rem;
+    background: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size:cover;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.background-image1{
+    background-image: url(https://wallpapercave.com/wp/wp3460281.jpg);
+}
+.background-image2{
+    background-image: url(https://timelinecovers.pro/facebook-cover/download/Best-Covers-For-Facebook-Timeline-sunflower.jpg);
+}
+.background-image3{
+    background-image: url(https://thaiconsulatela.org/wp-content/uploads/2018/09/thailand-travel-tips.jpg);
+}
+.background-image1{
+    animation: grow 6s linear forwards;
+    opacity: 1;
+}
+
+@keyframes grow{
+    0%, 20%{
+        transform: scale(1.5);
+    }
+
+    75%, 100%{
+        transform: scale(2);
+    }
+}
